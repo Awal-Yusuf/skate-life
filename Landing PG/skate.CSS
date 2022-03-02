@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#parent {
+  position: relative;
+}
+div {
+  min-height: 100vh;
+  color: rgba(0, 255, 255, 0.959);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  color: rgba(0, 255, 255, 0.733);
+}
+h4 {
+  color: rgba(0, 255, 255, 0.733);
+}
+.bg-img {
+  background: url("./side\ image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url("./side\ image.jpeg");
+}
+.email {
+  background: white;
+  color: cadetblue;
+  min-height: 60vh;
+  width: 500px;
+  border: 5px solid rgba(0, 255, 255, 0.959);
+  margin-left: 500px;
+  cursor: pointer;
+  position: absolute;
+  top: 280px;
+}
+
+label {
+  font-size: 40px;
+  font-family: cursive;
+}
+button {
+  font-family: cursive;
+  font-size: 30px;
+  color: cadetblue;
+}
+p {
+  font-family: cursive;
+}
